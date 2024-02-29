@@ -1,0 +1,130 @@
+predict == > ['皖TSWF4C'] true == > ['陕TSWF4C']
+predict == > ['京S71Q7'] true == > ['京S71QQ7']     长度不一致
+predict == > ['鲁WNJQC'] true == > ['鲁WNJQQC']     长度不一致
+predict == > ['黑V3DDKCU'] true == > ['黑V3DKCU']     长度不一致
+predict == > ['藏WKJGWS'] true == > ['藏WKJCWS']
+predict == > ['川XGR8Y9'] true == > ['川TBR8Y9']
+predict == > ['藏K177F7'] true == > ['赣K177F7']
+predict == > ['沪KMMU7G'] true == > ['沪KUMU7G']
+predict == > ['辽W3QQCAH'] true == > ['辽W3QCAH']     长度不一致
+predict == > ['渝HMH6LU'] true == > ['浙HMH6QU']
+predict == > ['云MGT1YV'] true == > ['云M0T1YV']
+predict == > ['云CW69HC'] true == > ['云CW690C']
+predict == > ['津J51TK'] true == > ['津J5C1TK']     长度不一致
+predict == > ['湘N5JQE'] true == > ['湘N5JQQE']     长度不一致
+predict == > ['宁DD6JT'] true == > ['宁DD56JT']     长度不一致
+predict == > ['粤L6CAZ9'] true == > ['粤L6CLZ9']
+predict == > ['晋WL44C9Q'] true == > ['晋WL4C9Q']     长度不一致
+predict == > ['皖FDDV6F'] true == > ['吉FDDV6F']
+predict == > ['吉HU38L1'] true == > ['甘PD38L1']
+predict == > ['贵AYBQ2'] true == > ['贵AYBQQ2']     长度不一致
+predict == > ['贵EXZS9M'] true == > ['京EXZS9M']
+predict == > ['桂F7CRLM'] true == > ['桂F7CWKM']
+predict == > ['黑T260R0'] true == > ['鄂T260R0']
+predict == > ['新DZCM9'] true == > ['新DDZCM9']     长度不一致
+predict == > ['宁K0FDX2'] true == > ['宁K0FRRS']
+predict == > ['渝W233NSL'] true == > ['渝W23NSL']     长度不一致
+predict == > ['藏QUGSYC'] true == > ['鲁QUGSYC']
+predict == > ['粤DDG0N'] true == > ['粤DDHG0N']     长度不一致
+predict == > ['豫T43NC'] true == > ['豫T463NC']     长度不一致
+predict == > ['冀PRTQ7D'] true == > ['贵PRTQ7D']
+predict == > ['冀J4WZGE'] true == > ['闽J4WZGE']
+predict == > ['沪K6E7SL'] true == > ['沪KUE7SL']
+predict == > ['贵FMR6MD'] true == > ['贵FMRQMD']
+predict == > ['浙V3VVAV'] true == > ['新V3VVAV']
+predict == > ['京CGUUXM'] true == > ['京GGUUXM']
+predict == > ['湘TMVYLW'] true == > ['浙TMVYLW']
+predict == > ['沪W4UW60'] true == > ['沪WAUW60']
+predict == > ['豫SE5GV1'] true == > ['津SE5GV1']
+predict == > ['蒙SZKZHK'] true == > ['琼SZKZHK']
+predict == > ['渝DX1MD8'] true == > ['黑DX1ND8']
+predict == > ['渝DSGUXB'] true == > ['蒙DSGUXB']
+predict == > ['皖B8MHJN'] true == > ['陕B8MHJN']
+predict == > ['贵L6R6VG'] true == > ['冀L6R6VG']
+predict == > ['冀KK1Z32'] true == > ['青KK1Z32']
+predict == > ['藏TRT5Y7'] true == > ['黑TRT5Y7']
+predict == > ['沪VS11XE4'] true == > ['沪VS1XE4']     长度不一致
+predict == > ['藏WVVCWJ'] true == > ['皖WVVCWJ']
+predict == > ['藏Y5XUZ8'] true == > ['浙T5XUZ8']
+predict == > ['闽FL898M'] true == > ['闽PL898M']
+predict == > ['辽BPFYC7'] true == > ['辽BRFXC7']
+predict == > ['黑B3G5HF'] true == > ['黑B3G5HP']
+predict == > ['晋ZUBFA'] true == > ['晋ZUCBFA']     长度不一致
+predict == > ['冀YGPY9W'] true == > ['晋YGPY9W']
+predict == > ['皖PC4GZL'] true == > ['陕PC4GZL']
+predict == > ['鲁K9ZZU2'] true == > ['晋K9ZZU2']
+predict == > ['苏TLXXH3'] true == > ['苏TLXXD3']
+predict == > ['赣YJ09TN'] true == > ['川YJ09TN']
+predict == > ['藏KH0AJ6'] true == > ['鲁KH0AJ6']
+predict == > ['京F5LBEJ'] true == > ['甘F5LBEJ']
+predict == > ['黑GWYZBG'] true == > ['藏GWYZBG']
+predict == > ['黑JDQ0E5'] true == > ['黑JDQQE5']
+predict == > ['赣WVR99K'] true == > ['赣WTR99K']
+predict == > ['鲁8NKQ1'] true == > ['鲁8NKQQ1']     长度不一致
+predict == > ['川V0TQW'] true == > ['川V0TQQW']     长度不一致
+predict == > ['黑BVHUM'] true == > ['黑BVVHUM']     长度不一致
+predict == > ['皖T5YKU'] true == > ['皖T53YKU']     长度不一致
+predict == > ['黑Z5SVM'] true == > ['黑Z5ESVM']     长度不一致
+predict == > ['粤58CC3LX'] true == > ['粤58C3LX']     长度不一致
+predict == > ['沪52ML1'] true == > ['沪582ML1']     长度不一致
+predict == > ['云BQ0Q2QN'] true == > ['云BQ02QN']     长度不一致
+predict == > ['赣JQCXK'] true == > ['赣JQ8CXK']     长度不一致
+predict == > ['豫3HTJ7C'] true == > ['豫3HTJTC']
+predict == > ['黑67W610'] true == > ['闽67W610']
+predict == > ['川DDUJ8'] true == > ['川DDHUJ8']     长度不一致
+predict == > ['冀ZZG4Z0'] true == > ['冀ZZG4ZQ']
+predict == > ['桂9DMQ8'] true == > ['桂9DMQQ8']     长度不一致
+predict == > ['渝E0NBDP'] true == > ['渝EQNBDP']
+predict == > ['云URCUQ'] true == > ['云URCUUQ']     长度不一致
+predict == > ['黑V91U8T'] true == > ['藏V91U8T']
+predict == > ['苏RLXAM'] true == > ['苏RLXAAM']     长度不一致
+predict == > ['鄂25G715'] true == > ['豫25G715']
+predict == > ['藏58KWC'] true == > ['藏58MKWC']     长度不一致
+predict == > ['陕C4GAD0'] true == > ['陕C4GADQ']
+predict == > ['鄂K66SBM'] true == > ['鄂KU6SBM']
+predict == > ['鲁477VMQ'] true == > ['鲁497VMQ']
+predict == > ['晋8BYK40'] true == > ['吉8BYK40']
+predict == > ['鄂64ZQ1'] true == > ['鄂64ZQQ1']     长度不一致
+predict == > ['浙S0WEY2'] true == > ['浙SQWEY2']
+predict == > ['渝FU8U5'] true == > ['渝FU8UU5']     长度不一致
+predict == > ['冀DD37D'] true == > ['冀DDM37D']     长度不一致
+predict == > ['鲁X9TQH'] true == > ['鲁X9TQQH']     长度不一致
+predict == > ['湘8KY60P'] true == > ['湘8KY6QP']
+predict == > ['桂PA2CMT'] true == > ['陕PA2CMT']
+predict == > ['陕WNNCRD'] true == > ['陕W7NCRD']
+predict == > ['津V3SSRX2'] true == > ['津V3SRX2']     长度不一致
+predict == > ['吉KQSUB'] true == > ['吉KQSUUB']     长度不一致
+predict == > ['渝0YH2PJ'] true == > ['渝QYH2PJ']
+predict == > ['辽BGKUH'] true == > ['辽BGKUUH']     长度不一致
+predict == > ['晋RZFLWM'] true == > ['晋RZFKWM']
+predict == > ['晋DBYCB'] true == > ['晋DDBYCB']     长度不一致
+predict == > ['琼N2P420'] true == > ['琼N2P42Q']
+predict == > ['浙MMMC3G'] true == > ['浙MUMC3G']
+predict == > ['宁WWKDML'] true == > ['宁WNKDML']
+predict == > ['豫9QAE0D'] true == > ['豫9QAEQD']
+predict == > ['黑PEPB60'] true == > ['粤PEPB6Q']
+predict == > ['宁ZLJEF1'] true == > ['宁ZAJEF1']
+predict == > ['苏0D179'] true == > ['苏0D8179']     长度不一致
+predict == > ['贵CGXUM'] true == > ['贵CGXUUM']     长度不一致
+predict == > ['藏WKDDN1F'] true == > ['藏WKDN1F']     长度不一致
+predict == > ['藏5811P'] true == > ['藏58M11P']     长度不一致
+predict == > ['闽T59RJ'] true == > ['闽T509RJ']     长度不一致
+predict == > ['藏Y0P1DJ'] true == > ['藏YQP1DJ']
+predict == > ['晋UGFK61'] true == > ['甘UGFK61']
+predict == > ['吉ETW9T7'] true == > ['晋ETW9T7']
+predict == > ['桂GQSQUT3'] true == > ['桂GQSUT3']     长度不一致
+predict == > ['黑BV0D0B'] true == > ['湘BV0D0B']
+predict == > ['贵BDBH00'] true == > ['贵BDBHQ0']
+predict == > ['吉P4EUA'] true == > ['吉P4EUUA']     长度不一致
+predict == > ['鄂C099KA'] true == > ['鄂CQ99KA']
+predict == > ['吉UXTJ05'] true == > ['吉UXTJQ5']
+predict == > ['藏7U77XR7'] true == > ['藏7U7XR7']     长度不一致
+predict == > ['粤DDGPT'] true == > ['粤DDMGPT']     长度不一致
+predict == > ['冀TG4U0C'] true == > ['冀TG4UQC']
+predict == > ['蒙FZ8K1Y'] true == > ['津FZ8K1Y']
+predict == > ['渝CPGQK'] true == > ['渝CPGQQK']     长度不一致
+predict == > ['沪VK0QK4'] true == > ['沪VKQQK4']
+predict == > ['豫7QKD10'] true == > ['豫7QKD1Q']
+predict == > ['蒙6AW0G6'] true == > ['苏6AW0G6']
+predict == > ['津NN07P8'] true == > ['津NNQ7P8']
+predict == > ['黑6BHETP'] true == > ['黑6BHETR']

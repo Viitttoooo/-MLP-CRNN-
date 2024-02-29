@@ -1,0 +1,63 @@
+本项目的工作如下：
+
+数据预处理：车牌定位，字符分割
+MLP算法设计：使用Spark中MLlib的多层感知机分类器编写了MLP算法
+CRNN算法设计：使用Pytorch+Horovod编写卷积循环神经网络进行模型训练
+GUI可视化：使用tkinter创建简单的车牌识别应用程序
+
+我们两种算法都实现了完全分布式，但考虑到CRNN的完全分布式环境配置比较复杂，在配置过程中极易出现版本不兼容问题，所以我们也给出了本地运行的Pytorch代码。
+注意：我们的CRNN请在GPU加速的情况下运行，否则会出现运行时间过长，经过测试，CPU运行此代码的一轮训练时间在30分钟左右。
+
+本项目的文件如下：
+
+数据集.zip:
+	final_train：车牌训练集，已经过车牌定位，未进行字符分割，请上传hdfs文件系统
+	final_test：车牌测试集，已经过车牌定位，未经过字符分割，请上传hdfs文件系统
+本地CRNN：本地可运行的CRNN代码
+	final_train.txt：训练集说明文件，包含每一张图片的路径和图片上每一个字符的类别索引。需要修改将图片路径为对应路径。
+	final_test.txt：测试集说明文件，包含每一张图片的路径和图片上每一个字符的类别索引。需要修改将图片路径为对应路径。
+	model.py：模型结构类
+	mydataset.py：数据集加载类
+	train.py：训练代码
+final_train.txt：分布式环境下训练集说明文件，包含每一张图片的路径和图片上每一个字符的类别索引。需要上传到hdfs文件系统，并修改将图片路径为对应路径。
+final_test.txt：分布式环境下测试集说明文件，包含每一张图片的路径和图片上每一个字符的类别索引。需要上传到hdfs文件系统，并修改将图片路径为对应路径。
+changename.py：修改图片文件名的代码，仅作为资源上传，实际运行可忽略
+changesize.py：修改图片大小的代码，仅作为资源上传，实际运行可忽略
+chepaijiance.py：车牌定位和切割代码，数据预处理第一部分，仅作为资源上传，实际运行可忽略
+generateplate.py：车牌生成文件，仅作为资源上传，实际运行可忽略
+zifuqiege.py：字符切割代码，数据预处理第二部分，CRNN无需此步骤，仅作为资源上传，实际运行可忽略
+mapreduce.py：wordcount算例，统计各省车牌数量并绘制生成条形图
+rdd_mlp.py：多层感知机分类器代码
+mydataset.py：分布式环境下数据集加载类，使用hdfs库从hdfs文件系统读图片
+model.py：分布式环境下模型结构类
+train.py：分布式环境下训练代码
+test.py：测试代码，请下载训练完成的模型进行本地测试
+getPlate.py：车牌定位和切割代码，数据预处理第一部分，用于GUI界面调用进行车牌定位
+predict.py：GUI界面调用的车牌识别代码，基于训练好的模型得到识别结果
+main_vis.py：GUI可视化，简单的车牌识别用户程序
+output1.csv：数字字母字符向量训练集，字符切割完成后的图片展成的一维向量，用于MLP训练
+test1.csv：数字字母字符向量测试集，字符切割完成后的图片展成的一维向量，用于MLP训练
+output2.csv：汉字字符向量训练集，字符切割完成后的图片展成的一维向量，用于MLP训练
+test1.csv：汉字字符向量测试集，字符切割完成后的图片展成的一维向量，用于MLP训练
+model.pth：训练完成后的模型，可直接用于测试
+loss.png：CRNN损失函数曲线
+acc.png：CRNN准确率曲线
+词云图：车牌统计词云图
+柱状图：车牌统计柱状图
+错误车牌，使用model.pth进行测试，识别错误的所有车牌
+
+本项目代码运行的环境要求：
+本项目基于Hadoop 2.10.2 + Spark 3.3.3，要求Python版本≥3.7。
+对于CRNN所需的深度学习环境，我们默认服务器有GPU，首先安装对应的cuda和cuda driver，然后基于cuda版本，安装对应的Pytorch。
+为了使用Horovod分布式深度学习框架，需要配置以下环境：
+	GNU Linux or macOS
+	Python≥3.7
+	g++-5或者更高版本
+	CMake 3.13或者更高版本
+	Pytorch≥1.5.0
+	OpenMPI＞3.1.3（不要安装3.1.3）
+	与cuda版本对应的NCCL
+最后使用如下命令安装Horovod：
+HOROVOD_GPU_OPERATIONS = NCCL pip install --no-cache-dir horovod[pytorch,spark]
+另外，无论是MLP还是CRNN或者是数据预处理过程，都需要一些常用Python库，例如：numpy，matplotlib，opencv等，请按需安装。
+
